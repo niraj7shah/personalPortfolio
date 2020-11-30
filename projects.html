@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <meta name = "introduction" content = "no-reference">
+</head>
+<body>
+    <!-- Code for the navigation bar -->
+    <nav class = "top-nav">
+        <ul>
+          <li><img id = "logo" src="images/initials1.png" alt="My image"></li>
+          <li><a href = "index.html">Home</a></li>
+          <li><a href = "resume.html">Resume</a></li>
+          <li><a id = "currentLink", href = "projects.html">Project</a></li>
+          <li><a href = "about.html">About</a></li>
+          <li><a href = "contact.html">Contact</a></li>
+        </ul>
+      </nav>
+</body>
+<main>
+    <div>
+        <iframe class = "video" width="1120" height="630" src="https://www.youtube.com/embed/ayLI_OLRze0" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div>
+        <p class = "text1"> The embedded video shows a quick demonstration as to what the facial recognition box looks like and how it works. 
+        The box uses a raspberry pi to run the code and interface with the camera, an arduino to control the light sensor and a step motor 
+        to turn the lock of the box. The light sensor is on the inside of the box, so when the box is closed, there is no light in the closed 
+        box and therefore the light sensor has a very low reading. This triggers the motor to close the lock and simulatniously, the camera 
+        is initialized and is constantly looking for a face. Once a face is in frame, the code matches the face in frame to a library of stored 
+        faces, and uses the OpenFace machine learning techniques to determine whether there is a match. If the computer determines a match, 
+        then the motor is triggered and the lock opens. </p>
+    </div>
+</main>
+</html>

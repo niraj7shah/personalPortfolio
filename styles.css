@@ -1,0 +1,146 @@
+h1{
+    text-emphasis: 900;
+    color: white;
+}
+
+
+/* Styling the navigation bar.  */
+body{
+    background-color: #434a42;
+}
+
+nav.top-nav {
+    background-color: #002147;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0px 4px 4px #0003;
+    padding-left: 2em;
+    z-index: 1;
+}
+
+nav.top-nav ul {
+    list-style: none;
+    padding : 0;
+    margin: 10px;
+}
+
+nav.top-nav li{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+}
+
+#logo{
+    margin: -15px;
+    width: 60px;
+    height: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#currentLink{
+    color:gray;
+}
+
+nav.top-nav a:hover{
+    opacity: 0.5;
+}
+
+/* Styling the home page. */
+.name {
+    position: relative;
+    margin: 70px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 10em;
+    color: #A3B4A2;
+  }
+  
+.name .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+.description{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.projects-row {
+    position: relative;
+    display: flex;
+	margin-top: 50px;
+}
+
+.projects-column {
+    position: relative;
+    flex: 50%; 
+    padding: 5px;
+}
+
+.text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+p a {
+    text-decoration: underline;
+    color: #0000AA
+}
+
+p a:hover{
+    opacity: 0.5;
+}
+
+/* Contact form styling */
+.form{
+    position: relative;
+    align-content: center;
+    margin-top: 100px;
+}
+
+/* Project page styling */
+.video{
+    position: relative;
+    margin-top: 70px;
+    
+}
+
+.text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+/*about page styling*/
+.text2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+#about{
+    position: relative;
+    margin-top: 100px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+    <!-- Code for the navigation bar -->
+    <nav class = "top-nav">
+        <ul>
+          <li><img id = "logo" src="images/initials1.png" alt="Initials"></li>
+          <li><a id = "currentLink", href = "index.html">Home</a></li>
+          <li><a href = "resume.html">Resume</a></li>
+          <li><a href = "projects.html">Project</a></li>
+          <li><a href = "about.html">About</a></li>
+          <li><a href = "contact.html">Contact</a></li>
+        </ul>
+      </nav>
+</body>
+<main>
+    <!-- Adding in the animated name on the home page. -->
+    <div>
+        <h1 class="name">Niraj Shah</h1>
+    </div>
+    <!-- Description below the name -->
+    <div>
+        <h2 class = "description"> Hi! I'm a Northwestern CS student passionate about HCI, Robotics, Mechanical Engineering, Languages and Economics</h2>
+    </div>
+    <!-- Projects -->
+    <div>
+        <br>
+        <br>
+        <h2 class = "description"> Here are a couple of projects I am proud of.</h2>
+    </div>
+    <div class="projects-row">
+        <div class="projects-column">
+            <a href="projects.html">
+                <img class = "overlay" src="images/facial-rec-box.jpeg" alt="Facial Recognition Box" width="600px" height = "400px">
+            </a>
+            <p class = "text"> This is part of a project my brother and I completed over the summer - a facial recognition box. 
+                Using a modified version of Carnegie Mellon's OpenFace neural network, when the camera in the box detects a 
+                known face, the lock on the box opens. What you see in this image is the raspberry pi, arduino and step motor 
+                used to for the hardware of the box. Here <a href = "https://github.com/niraj7shah/facial-recognition">
+                code on github</a>. Here is more information about the <a href = "projects.html"> project.</a>
+            </p>
+        </div>
+        <div class="projects-column">
+            <div class= "container">
+                <img src="images/gait-station.png" alt="DTC Project" style="width:600px" height = "400px">
+                <p class = "text"> In my Design Thinking and Communication class, my team and I were tasked to create something that could 
+                    help people with disabilities get in and out of the recumbent trikes that they were using for therapy. 
+                    We decided to focus on portability and sturdiness for the design, and came up with a folding design 
+                    that comes apart to be smaller than a suitcase, but still sturdy enough to help the users achieve their goal 
+                    of independently entering and exiting the trike. My team and I won the design award for the class. 
+                </p>
+
+</main>
+<!-- JS files for the animation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</html>
